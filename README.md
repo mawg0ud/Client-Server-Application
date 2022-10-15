@@ -11,7 +11,7 @@ d- For testing reasons, the client should submit a string to the server, and the
 
 
 Server:
-
+---------------------------------------------------------------------------------
 1- Create a Server socket channel.
 2- Bind the server socket channel to the IP address and Port
 3- Wait and Accept the client socket connection.
@@ -21,7 +21,7 @@ Server:
 
 
 Client:
-
+---------------------------------------------------------------------------------
 1- Register host and port. The connection won't actually be established until I call connect.
 2- Establishes the connection, and then the socket will be passed to handle the connection.
 3- This is the method I will override when making a network client for the needed task.

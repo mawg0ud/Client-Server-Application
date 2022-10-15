@@ -8,7 +8,7 @@ a- Keep client and server apps distinct.
 b- Connections done via socket API.
 c-Server simultaneously connects to many clients.
 d- For testing reasons, the client should submit a string to the server, and the server should return with the string's length (for example, if the client transmits "count this line" as a string, the server's response should be 15). 
----------------------------------------------------------------------------------
+
 
 Server:
 
